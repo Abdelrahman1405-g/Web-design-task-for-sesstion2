@@ -393,6 +393,7 @@ nav li{
 
 }
 .masseage{ 
+    display: block;
     background: transparent;
     padding: 3%;
     width: 100%;

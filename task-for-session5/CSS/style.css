@@ -1,0 +1,318 @@
+/* Reset style */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    display: block;
+}
+
+
+/* 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* Global style */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.bg-light{
+    background-color: #F5F7FA;
+}
+.bg-black{
+    background-color: #263238;
+}
+.bg-green{
+    background-color: #4CAF4F;
+}
+
+.green-text{
+    color: #4CAF4F;
+}
+.white-text{
+    color: white;
+}
+.black-text{
+    color:#18191F;
+}
+.gray-text{
+    color: #717171;
+    font-size: 18px;
+}
+.bold{
+    font-weight:bold;
+}
+.larg-font{
+    font-size: 70px;
+}
+.h2-font{
+    font-size: 45px;
+}
+.center-text{
+    text-align: center;
+}
+
+.d-flex{
+    display:flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+
+.larg-padding-top-bottom{
+    padding: 5% 0%;
+}
+.padding-top-bottom{
+    padding: 1% 0%;
+}
+
+.padding-button{
+    padding: 8% 13%;
+}
+
+.container-padding{
+    padding: 3% 0%;
+}
+
+/* 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* Custem style */
+nav{
+    position: sticky;
+    top: 0;    
+    padding: 1% 0%;
+    z-index: 100;
+}
+nav .container{
+    align-items: baseline;
+}
+nav ul{
+    width: 45%;
+    
+}
+.nav-button{
+    width: 20%;
+}
+.nav-button button{
+    border: none;
+    border-radius: 5px ;
+}
+#sec1 img{
+    width: 100%;
+    height: 100%;
+}
+#sec1 .div-img{
+    width: 35%;
+}
+#sec1 button{
+    padding :2% 7%;
+    font-size: 24px;
+    border: none;
+   border-radius: 5px;
+}
+.cir-div{
+    justify-content: center;
+}
+.circle-gr{
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+    background-color: #c2c2c2; /* Circle color */
+    border-radius: 50%; /* Makes it a circle */
+    display: inline-block; /* Aligns circles horizontally */
+    margin: 10px; /* Adds spacing between circles */
+}
+.circle-g{
+    width: 20px; 
+    height: 22px;
+    background-color:  #4CAF4F; 
+    border-radius: 50%; 
+    display: inline-block; 
+    margin: 10px; 
+}
+/* #sec2 .container{
+    
+    
+} */
+#sec2 img{
+    width: 5%;
+    /* height: 5%; */
+    display: block;
+}
+/* #sec2 h2{
+    
+} */
+#sec2 .card{
+    width:30%;
+    border-radius:11px ;
+    box-shadow: 0px 0px 12px 1px rgb(220 218 218);
+    padding: 5% 2%;
+}
+#sec2 i{
+    margin-bottom:2%;
+    border-radius: 5px 2px 16px 0px;
+    background-color: transparent;
+    color: #18191F;
+    font-size: 40px;
+    box-shadow: 25px 3px 1px 7px #E8F5E9;
+}
+
+/* #sec3 .container{
+    /* justify-content: ; */
+
+#sec3 .contant{
+    width: 55%;
+}
+
+#sec3 h2{
+    font-size: 45px;
+}
+#sec3 img{
+    display: block;
+}
+
+#sec3 .sec3-img{
+    width: 25%;
+}
+ 
+#sec3 button{
+    padding: 2% 3%;
+    font-size: 27px;
+    border: none;
+    border-radius: 5px;
+}
+
+#sec4 h3{
+    font-size: 30px;
+}
+#sec4 i{
+    color:#4CAF4F;
+    font-size:45px;
+    vertical-align: bottom;
+}
+#sec4 .counter{
+    /* align-items: flex-end; */
+    width: 45%;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+#sec4 .members{
+    width: 40%;
+}
+
+.tesla{
+    width: 35%;
+    border-radius: 4px;
+    border: none;
+}
+.tesla-contant{
+    width: 60%;
+    font-size: 20px;
+}
+
+
+    
+
+.flay-text{
+    padding: 5%;
+    background-color: #F5F7FA;
+    border-radius: 7px;
+    width: 80%;
+    margin: auto;
+    bottom: -25%;
+    left: 10%;
+    box-shadow: 0px 0px 12px 1px rgb(220 218 218);
+}
+#sec7 .container{
+    padding:5% 0% 6%;
+}
+#sec7 button{
+    background: transparent;
+    border: none;
+    width: 100%;
+    padding: 4% 0%;   
+}
+#sec7 i{
+    margin-left: 4%;
+    vertical-align: middle;
+}
+#sec7 .card{
+    width: 30%;
+}
+#sec7 img {
+    border-radius: 6px;
+    width: 100%;
+}
+
+
+#sec8 button{
+    border: none;
+    background-color: #4CAF4F;
+    border-radius: 5px;
+    padding :1% 2%;
+    font-size: 19px;
+}
+#sec9 h2{
+    font-size: 32px;
+
+}
+.width30{
+    width: 30%;
+}
+.width35{
+    width: 35%;
+}
+.social-icons{
+    width: 70%;
+}
+
+#sec9 i{
+    padding: 4%;
+    border-radius: 50%;
+    background-color: #414354;
+    color: white;
+    font-size: 25px;
+}
+#sec9 input{
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    padding: 7%;
+    background-color:#414354 ;
+    font-size: 17px;
+    color: white;
+}
+
+#sec9 li{
+    margin-top: 5%;
+    font-size: 17px;
+}
+.dd{
+    width: 65%;
+}
+.flay-icon{
+    bottom: 10%;
+    right:2%;
+}
+
+.sec3-img img{
+    width: 100%;
+}
