@@ -1,0 +1,118 @@
+@media (max-width: 431px) {
+  .d-none{
+    display: none;
+  }
+  .w-50{
+    width: 50%;
+  }
+  .w-30{
+    width: 30%;
+  }
+  .w-22{
+    width: 225;
+  }
+  
+  nav h2{
+    width :70%; 
+  }
+  #sec1 nav .ii{
+    display: block;
+  }
+  #sec1{
+    padding: 5%;
+    background-size: 189% 111%;
+  }
+  .dog-icon{
+    width: -1%;
+  }
+  h1{
+    font-size: 35px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  h3{
+    font-size: 17px;
+  }
+  p{
+    font-size: 13px;
+  }
+  .sec1 button{
+    width: 31%;
+  }
+  .f-100{
+    width: 100%;
+    margin-bottom: 6%;
+  }
+  .f-50{
+    width: 49%;
+  }
+  .container{
+    width: 100%;
+    padding: 2%;
+  }
+  .inter-container{
+    width: 100%;
+    border: none;
+  }
+  .d-flex{
+    flex-wrap: wrap;
+  }
+  #sec2 a{
+    margin-left: 60%;
+  }
+  .m-flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  #sec5{
+    order: 6;
+  }
+  #sec6{
+    order: 5;
+  }
+  #sec5 .card {
+    width: 48%;
+  }
+  .social{
+    order: 1;
+    margin-bottom: 10%;
+  }
+  .form-div{
+    order: 2;
+    margin-bottom: 10%;
+  }
+  .social .s-card{
+    margin: 5%;
+  }
+  .s-card{
+    width: 40%;
+  }
+  .d-blo{
+    display: block;
+    margin-bottom: 6%;
+  }
+  .sub-email-div input{
+    padding: 4% 2%;
+    width: 100%;
+    margin: 4% 0%;
+  }
+  .sub-email-div button{
+    padding: 4% 2%;
+    width: 100%;
+    margin: 4% 0%;
+  }
+  .ll h2{
+    justify-content: start;
+  }
+  .ll{
+    margin-bottom: 10%;
+  }
+  .s-ic i{
+    font-size: 20px;
+  }
+  .ct-t{
+    font: 25px;
+    text-align: center;
+  }
+}

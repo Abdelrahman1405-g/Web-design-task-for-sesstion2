@@ -1,0 +1,509 @@
+/* Reset style  */
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+
+/* Global style */
+.container{
+width: 80%;
+margin:auto;
+padding: 3% 0%;
+}
+.text-center{
+    text-align: center;
+}
+
+.larg-padding-top-bottom{
+    padding-top: 5%;
+    padding-bottom: 14%;
+}
+.margin-top-bottom{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.d-flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+.white-text{
+    color: #FFFFFF;
+}
+.gray-text{
+    color: #10182880;
+    font-size: 10px;
+}
+.t-17{
+    font-size: 17px;
+}
+.border-bottom{
+    border-bottom: 1px solid #343434;
+}
+.w-100{
+    width: 100%;
+}
+.w-85{
+    width: 90%;
+}
+
+
+.d-inline-block{
+    display: inline-block;
+}
+.tex-dec-line{
+    text-decoration: underline;
+}
+/* 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+
+/* Custem style */
+.ii{
+    display: none;
+}
+#sec1{
+    background-image: url(../image/a5fcbde5258262f42e8d47435151dd5e6c7fc8ba.png);
+    background-repeat: no-repeat;
+    background-size: 134% 112%;
+} 
+h1{
+    font-size: 60px;
+}
+/* h2{
+    font-size: 20px;
+}
+p{
+    font-size: 10px;
+} */
+
+nav button{
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    width: 20%;
+    color :#101828;
+}
+.padding{
+    padding: 1% 3% 4%;
+}
+.padding-h2{
+    padding: 1% 1%;
+}
+.nav-left{
+    width: 65%;
+    align-items: center;
+}
+nav ul{
+    width: 55%;
+    font-size: 10px;
+}
+nav h2{
+    justify-content: start;
+    width: 30%;
+}
+.dog-icon{
+    margin-right: 1%;
+}
+.sec1 button{
+    background: transparent;
+    padding :1% 1%;
+    border-radius: 20px;
+    width: 17%;
+    border: 2px solid white;
+}
+
+#sec2 h2{
+    padding: 0% 2%;
+}
+#sec2 input{
+    border: none;
+    border-radius: 22px;
+    background-color: lightgray;
+    padding: 2% 13%;
+}
+form{
+    width: 40%;
+}
+form button{
+    bottom: 23%;
+    left: 6%;
+    background: transparent;
+    border: none;
+    color: #828080;
+}
+.inter-container{
+    width: 90%;
+    border: 1px solid black;
+    border-top: none;
+    margin-top: 2%;
+    padding: 2%;
+
+}
+.btns-div{
+    width: 50%;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.btns-div button{
+    font-size: 10px;
+    background: white;
+    color: #101828;
+    border: none;
+    border-radius: 9px;
+    padding: 2% 2%;
+    width: 18%;
+    transition-duration: 0.4s;
+    transition-property: background;
+    transition-timing-function: ease-in;
+    /* background-color: bisque; */
+}
+.btns-div button:hover{
+    background: #243961;
+    color:white;
+}
+.products{
+    width :  100%;
+    justify-content: space-around;
+}
+.imag1{
+    width: 30%;
+    border-radius: 16px;
+}
+
+#sec2 a{
+    text-decoration: underline;
+    color: #101828;
+    margin-left: 80%;
+    font-weight: bold;
+}
+/* #sec3 .inter-container{
+    
+} */
+.imag1 .gg{
+   width: 100%; /* تحديد العرض المطلوب */
+   height:300px; /* تحديد الارتفاع المطلوب */ 
+   object-fit: cover; /* لضمان تغطية الصورة للأبعاد المحددة بدون تشويه */
+   border-radius: 10px;
+   margin-top: 10%;
+}
+.imag1 img{
+   width: 100%; /* تحديد العرض المطلوب */
+   height:310px; /* تحديد الارتفاع المطلوب */ 
+   object-fit: cover; /* لضمان تغطية الصورة للأبعاد المحددة بدون تشويه */
+   border-radius: 10px;
+   margin-top: 10%;
+}
+.imag2{
+    width: 30%;
+    border-radius: 16px;
+}
+.imag2  img{
+    width: 100%;
+    height: 640px;
+    object-fit: cover; /* لضمان تغطية الصورة للأبعاد المحددة بدون تشويه */
+    border-radius: 10px;
+    margin-top: 10%;
+    transition-duration: 0.7s;
+}
+.serves{
+    justify-content: space-around;
+}
+.serves .imag1{
+    align-content: space-between;
+}
+.image-container{
+    position: relative;
+}
+.overlay{
+    font-size: 35px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 50% 0%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: #00000070;
+    border-radius: 12px;
+    transition-duration: 0.7s;
+}
+.p-100{
+    padding: 100% 0%;
+}
+.hidden{
+    opacity: 0;
+}
+.overlay:hover{
+    opacity: 1;
+}
+
+
+.about{
+    font-size: 10px;
+    padding: 2%;
+    width: 45%;
+}
+.cat-imgs img{
+    /* border:; */
+    border-radius: 5px;
+}
+.cat-imgs{
+    width: 45%;
+}
+
+.fly-cat{
+    width: 54%;
+    border: 8px solid white;
+    border-radius: 15px;
+    top: 53%;
+    right: 70%;
+}
+
+#sec5 .card{
+    width: 22%;
+}
+#sec5 img{
+    height: 230px;
+}
+.card-body{
+    padding: 2% 0%;
+}
+.card-icon{
+    width: 50%;
+    font-size: 15px;
+}
+
+
+
+.blog-contant{
+    width: 45%;
+    padding: 2%;
+}
+#sec6 button{
+    font-weight: 700;
+    padding: 3%;
+    color: white;
+    background-color: #101828;
+    border-radius: 6px;
+}
+.blog-imag{
+    width: 50%;
+    overflow: hidden;
+}
+
+#sec6 img{
+    height: 480px;
+}
+.play-icon{
+    margin: 25%;
+    border-radius: 50%;
+    border: 4px solid white;
+    color: white;
+    padding: 4%;
+    font-size: 50px;
+    width: 80px;
+    height: 80px;
+    line-height: 0.7;
+}
+
+/* 00000000000000000000000000000000000000000000000000000000000000 */ /* 0000000000000000000000000000000000000000000000000000000000000000000 */
+#sec7{
+    background-color: #101828;
+}
+.form-div{
+    width: 48%;
+}
+#sec7 form{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 3%;
+    flex-wrap: wrap;
+}
+.fname{
+    width: 48%;
+}
+/* #sec7 a{
+    text-decoration: underline;
+} */
+#sec7 label{
+    font-size: 13px;
+    margin: 2% 0%;
+}
+#sec7 input,textarea{
+    font-size: 10px;
+    /* width: 100%; */
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+.name-div{
+    width: 100%;
+    margin: 2% 0%;
+}
+.name-div input{   
+    padding: 5% 4%;
+}
+.Email input{
+    padding : 2% 3%
+}
+.masseage{
+    width: 100%;
+    margin: 2% 0%;   
+}
+#ch-1{
+    display: inline-block;
+    /* margin-left: 3%; */
+    width: 10%;
+}
+#sec7 button{
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+    margin: 3% 0%;
+    background-color: #101828;
+    padding: 4% 0%;
+}
+.social{
+    width: 45%;
+    flex-wrap: wrap;
+}
+.s-card{
+    width: 50%; 
+}
+
+#sec8{
+    background-color: #101828;
+}
+
+
+.oo{
+    padding-top: 20%;
+}
+
+
+
+
+.subs-cont{
+    width: 55%;
+}
+
+
+
+.sub-email-div{
+    width: 45%;
+}
+.sub-email-div input{
+    background-color: white;
+    padding: 2%;
+    width: 60%;
+    border-radius: 12px;
+    border: none;
+}
+.sub-email-div button{
+    background-color: white;
+    color: #101828;
+    padding: 2% 0%;
+    width: 35%;
+    border-radius: 12px;
+    border: none;
+}
+.ll{
+    width: 30% ;
+}
+.rr{
+    width: 65%;
+}
+.rr li{
+    margin: 4% 0%;
+}
+.ul-div{
+    width: 22%;
+}
+.w-75{
+    width: 75%;
+}
+.kh{
+    width: 35%;
+}
+.s-ic{
+    width: 60%;
+}
+
+#sec1{
+    order: 1;
+}
+#sec2{
+    order: 2;
+}
+#sec3{
+    order: 3;
+}
+#sec4{
+    order: 4;
+}
+#sec5{
+    order: 5;
+}
+#sec6{
+    order: 6;
+}
+#sec7{
+    order: 7;
+}
+#sec8{
+    order: 8;
+}
+
+.form-div{
+    order: 1;
+}
+.social{
+    order: 2;
+}
+
+.d-blo{
+    display: none;
+}
